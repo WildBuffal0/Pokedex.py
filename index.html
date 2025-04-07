@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Pokedex (1-1025)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Pokedex</h1>
+    <div class="pokedex-container">
+        <div class="pokemon-list-container">
+            <h2>Pokémon List (1-1025)</h2>
+            <ul id="pokemon-list">
+                <!-- Pokémon names will be loaded here by JavaScript -->
+                <li class="loading">Loading Pokémon...</li>
+            </ul>
+        </div>
+        <div class="pokemon-display-container">
+            <h2>Details</h2>
+            <div id="pokemon-details" class="pokemon-card">
+                <!-- Selected Pokémon details will appear here -->
+                <p>Select a Pokémon from the list to see its details.</p>
+            </div>
+        </div>        </div> <!-- End of pokemon-display-container -->
+
+        <!-- Decorative Controls -->
+        <div class="pokedex-controls">
+            <div class="control-button blue"></div>
+            <div class="control-button green"></div>
+            <div class="control-button red"></div>
+            <div class="control-pad">
+                <div class="pad-arrow up"></div>
+                <div class="pad-arrow left"></div>
+                <div class="pad-arrow right"></div>
+                <div class="pad-arrow down"></div>
+                <div class="pad-center"></div>
+            </div>
+        </div>
+
+    </div> <!-- End of pokedex-container -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
